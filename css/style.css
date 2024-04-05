@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: all 0.85 linear;
+  cursor: pointer;
+}
+button:active {
+  scale: 0.85;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 22px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.container, .update_blok, .wrapper, section, header, main, aside, footer {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+input {
+  width: 100%;
+}
+
+.wrapper {
+  margin: 40px auto;
+  gap: 30px;
+  width: 600px;
+}
+
+.container input {
+  width: 70px;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.container, .update_blok {
+  gap: 20px;
+}
+
+button {
+  background: #60e9a5;
+}
+
+.update_blok input {
+  font-weight: 600;
+}
+.update_blok textarea {
+  height: 300px;
+  padding: 10px;
+}
+.update_blok button {
+  align-self: flex-start;
+}
